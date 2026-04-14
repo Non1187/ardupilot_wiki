@@ -49,9 +49,9 @@ Options (User Adjustable Parameters)
 -  :ref:`RTL_ALT_M<RTL_ALT_M>`: The
    minimum altitude the copter will move to before returning to launch.
 
-   -  Set to zero to return at the current altitude.
-   -  The return altitude can be set from 1 to 8000 centimeters.
-   -  The default return altitude Default is 15 meters (1500)
+   -  Set to zero to disable this parameter as an additional minimum RTL altitude.
+   -  The return altitude can be set from 0.3 to 3000 meters.
+   -  The default return altitude Default is 15 meters.
 
 -  :ref:`RTL_ALT_FINAL_M<RTL_ALT_FINAL_M>`: The
    altitude the copter will move to at the final stage of "Returning to
